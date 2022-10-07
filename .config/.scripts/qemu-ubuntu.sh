@@ -13,4 +13,4 @@ qemu-system-x86_64 \
   -audiodev coreaudio,id=coreaudio \
   -device ich9-intel-hda -device hda-output,audiodev=coreaudio \
   -cdrom ubuntu-22.04.1-desktop-amd64.iso \
-  -drive file=UB01.qcow2,if=virtio
+  -drive file=UB01.qcow2,if=virtio 
