@@ -7,3 +7,7 @@ function colormap() {
 
 alias pip=pip3
 
+function csvp {
+    column -t -s, -n "$@" | less -F -S -X -K
+}
+
