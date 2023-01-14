@@ -27,3 +27,6 @@ function csvp {
     alias la='ls -A'
     alias l='ls -CF'
 
+# directory color
+export LS_COLORS=$LS_COLORS:'di=1;97;44:'
+
